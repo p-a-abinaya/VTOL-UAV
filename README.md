@@ -6,6 +6,7 @@ Completion of design and control framework
 
 **Literature Review**
 1. [Control system design for VTOL fixed wing UAV](https://www.sciencedirect.com/science/article/pii/S2405896316302415)
+2. [Design methodology for hybrid VTOL + fixed wing UAVs](https://medcraveonline.com/AAOAJ/design-methodology-for-hybrid-vtol--fixed-wing-unmanned-aerial-vehicles.html)
 
 **Design**
 1. Number of motor-propeller system for *VTOL*
@@ -15,5 +16,4 @@ Completion of design and control framework
 **Control Design**
 1. Controller Architecture
 2. Block Diagram
-
 
