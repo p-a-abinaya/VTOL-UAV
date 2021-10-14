@@ -20,7 +20,7 @@
 * As horizontal velocity is increased, the UAV enters **forward flight mode.**
 * Intersection region => switch between VTOL and forward flight mode. 
 
-## Typical control architecture 
+## Control architecture 
 > Made of 3 major loops 
 > Has a mode selector that defines the mode of operation according to the current states. 
 **Innermost loop:** 
