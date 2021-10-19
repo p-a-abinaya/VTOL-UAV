@@ -1,0 +1,68 @@
+Constrained Instances: 'wing-1', 'wing-1', 'fuselage-1', 'fuselage-1'
+Constraint Name: Width1
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fuselage-1', 'wing-1'
+Constraint Name: Lock3
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fuselage-1', 'wing-1'
+Constraint Name: Lock3
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fuselage-1', 'wing-1'
+Constraint Name: Lock3
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'wing-1', 'wing-1', 'VTOL propeller assem-1/rotorplatform-1', 'VTOL propeller assem-1/rotorplatform-1'
+Constraint Name: Width2
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'wing-1', 'VTOL propeller assem-1/rotorplatform-1'
+Constraint Name: Lock5
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'wing-1', 'VTOL propeller assem-1/rotorplatform-1'
+Constraint Name: Lock5
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'wing-1', 'VTOL propeller assem-1/rotorplatform-1'
+Constraint Name: Lock5
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'wing-1', 'wing-1', 'VTOL propeller assem-2/rotorplatform-1', 'VTOL propeller assem-2/rotorplatform-1'
+Constraint Name: Width3
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fuselage-1', 'motor-6'
+Constraint Name: Lock8
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fuselage-1', 'motor-6'
+Constraint Name: Lock8
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fuselage-1', 'motor-6'
+Constraint Name: Lock8
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'stab-2', 'stab-2', 'fuselage-1', 'fuselage-1'
+Constraint Name: Width4
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fuselage-1', 'stab-2'
+Constraint Name: Lock9
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fuselage-1', 'stab-2'
+Constraint Name: Lock9
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fuselage-1', 'stab-2'
+Constraint Name: Lock9
+Error Details: Constraint geometry is not supported. The constraint geometry has been exported as unknown geometry.
+---------------------------------------------------------------------------------
+Constrained Instances: 'fin-3', 'fin-3', 'fuselage-1', 'fuselage-1'
+Constraint Name: Width6
+Error Details: Constraint is not supported. The constraint has been ignored.
+---------------------------------------------------------------------------------
