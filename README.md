@@ -21,4 +21,4 @@ Completion of design and understanding control framework
 
 - [x] Completed importing CAD model.
 - [x] Resolved errors.
-- [] Learning Controller for VTOL and Forward flight.
+- [ ] Learning Controller for VTOL and Forward flight.
