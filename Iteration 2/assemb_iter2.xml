@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/24/21||02:11:48" using="Simscape Multibody Link Version 7.0" from="SolidWorks 29.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="_final assemb" uid="_final assemb" version="579">
+<AssemblyFile name="_final assemb.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="fin-3" uid="fin-3" entityUid="fin*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.43949863405199674 0.71101342962897895 1.0211007860752295</Translation>
+</Transform>
+</Instance>
+<Instance name="VTOL propeller assem-2" uid="VTOL propeller assem-2" entityUid="VTOL propeller assem">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.21989966126143745 0.40717205010902735 0.04411774328000484</Translation>
+</Transform>
+<Instance name="VTOL propeller-1" uid="VTOL propeller-1" entityUid="VTOL propeller*:*Default">
+<Transform>
+<Rotation>0.95376066718512864 0 0.30056711352138704 0 1 0 -0.30056711352138704 0 0.95376066718512864</Rotation>
+<Translation>0.48943344596263139 0.39728925798157022 0.58684883141410449</Translation>
+</Transform>
+</Instance>
+<Instance name="VTOL propeller-2" uid="VTOL propeller-2" entityUid="VTOL propeller*:*Default">
+<Transform>
+<Rotation>-0.99973140595483601 0 0.023175762070892281 0 1 0 -0.023175762070892281 0 -0.99973140595483601</Rotation>
+<Translation>-0.087667260656692281 0.39728925798157022 0.58707713354776681</Translation>
+</Transform>
+</Instance>
+<Instance name="rotorplatform-1" uid="rotorplatform-1" grounded="true" entityUid="rotorplatform*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20090201036199745 0.34276824741666723 0.58448304279522512</Translation>
+</Transform>
+</Instance>
+<Instance name="motor-2" uid="motor-2" entityUid="motor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.10261251014064982 0.36276824741666724 0.58448304279522512</Translation>
+</Transform>
+</Instance>
+<Instance name="motor-1" uid="motor-1" entityUid="motor*:*Default">
+<Transform>
+<Rotation>0.96439163749025081 0 0.26447829691464819 0 1 0 -0.26447829691464819 0 0.96439163749025081</Rotation>
+<Translation>0.50441653086464466 0.36276824741666724 0.58448304279522512</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="VTOL propeller assem-1" uid="VTOL propeller assem-1" entityUid="VTOL propeller assem">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.21989966126143745 0.40717205010902735 0.84411774328000488</Translation>
+</Transform>
+<Instance name="motor-2" uid="motor-2" entityUid="motor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.10261251014064982 0.36276824741666724 0.58448304279522523</Translation>
+</Transform>
+</Instance>
+<Instance name="motor-1" uid="motor-1" entityUid="motor*:*Default">
+<Transform>
+<Rotation>0.96439163749025081 0 0.26447829691464819 0 1 0 -0.26447829691464819 0 0.96439163749025081</Rotation>
+<Translation>0.50441653086464466 0.36276824741666724 0.58448304279522523</Translation>
+</Transform>
+</Instance>
+<Instance name="rotorplatform-1" uid="rotorplatform-1" grounded="true" entityUid="rotorplatform*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.20090201036199745 0.34276824741666723 0.58448304279522523</Translation>
+</Transform>
+</Instance>
+<Instance name="VTOL propeller-1" uid="VTOL propeller-1" entityUid="VTOL propeller*:*Default">
+<Transform>
+<Rotation>-0.35252868125152143 0 -0.93580100924024634 0 1 0 0.93580100924024634 0 -0.35252868125152143</Rotation>
+<Translation>0.51180770848755797 0.39728925798157022 0.57123690062791077</Translation>
+</Transform>
+</Instance>
+<Instance name="VTOL propeller-2" uid="VTOL propeller-2" entityUid="VTOL propeller*:*Default">
+<Transform>
+<Rotation>-0.94857177906307544 0 0.31656212654882132 0 1 0 -0.31656212654882132 0 -0.94857177906307544</Rotation>
+<Translation>-0.089093971317954268 0.39728925798157022 0.59136336960936919</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="forwardflight propeller-5" uid="forwardflight propeller-5" entityUid="forwardflight propeller*:*Default">
+<Transform>
+<Rotation>0 1 0 -0.93407399825921111 0 0.35707949503724157 0.35707949503724157 0 0.93407399825921111</Rotation>
+<Translation>-0.42553611069410757 0.72961668500728938 1.0224623535730022</Translation>
+</Transform>
+</Instance>
+<Instance name="ailerons R-1" uid="ailerons R-1" entityUid="ailerons R*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.013654175713072925 0.78064341908541623 1.0286231824386198</Translation>
+</Transform>
+</Instance>
+<Instance name="stab-2" uid="stab-2" entityUid="stab*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.58052518755621285 0.7629402975256947 1.029415631036561</Translation>
+</Transform>
+</Instance>
+<Instance name="fuselage-1" uid="fuselage-1" grounded="true" entityUid="fuselage*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.087796615976558967 0.68994029752569463 1.02860078607523</Translation>
+</Transform>
+</Instance>
+<Instance name="wing-1" uid="wing-1" entityUid="wing*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.06273593284343737 0.77494029752569471 1.02860078607523</Translation>
+</Transform>
+</Instance>
+<Instance name="motor-6" uid="motor-6" grounded="true" entityUid="motor*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>-0.38779661597655901 0.71600612558883381 1.0288682324648348</Translation>
+</Transform>
+</Instance>
+<Instance name="ailerons L-1" uid="ailerons L-1" entityUid="ailerons L*:*Default">
+<Transform>
+<Rotation>0.99817134043968814 0.060448119282871117 0 -0.060448119282871117 0.99817134043968814 0 0 0 0.99999999999999989</Rotation>
+<Translation>-0.013509949973957491 0.78296241464748728 1.0285783897118406</Translation>
+</Transform>
+</Instance>
+<Instance name="elevator-2" visible="false" uid="elevator-2" entityUid="elevator*:*Default">
+<Transform>
+<Rotation>0.99999728116155795 0.0023318811059041956 0 -0.0023318811059041956 0.99999728116155795 0 0 0 1</Rotation>
+<Translation>0.75232085378836133 0.76295534324160785 0.96807824571284962</Translation>
+</Transform>
+</Instance>
+<Instance name="rudder-3" uid="rudder-3" entityUid="rudder*:*Default">
+<Transform>
+<Rotation>0.9988449010833309 -3.4167809923053132e-15 0.048050635581967018 3.4184741483030026e-15 1 0 -0.048050635581967018 1.1737359874828609e-16 0.9988449010833309</Rotation>
+<Translation>0.40545209604102467 0.68885543767069246 1.0379408509531978</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fuselage-1</Uid>
+</InstancePath>
+<Position>-0.20000000000000007 0.075000000000000067 0.074999999999999956</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>0 -0.010000000000000009 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fuselage-1</Uid>
+</InstancePath>
+<Position>-0.30000000000000004 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>0 -0.010000000000000009 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>VTOL propeller assem-1</Uid>
+<Uid>rotorplatform-1</Uid>
+</InstancePath>
+<Position>0.34999999999999998 0.015000000000000013 0.014999999999999902</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>0 -0.010000000000000009 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>VTOL propeller assem-2</Uid>
+<Uid>rotorplatform-1</Uid>
+</InstancePath>
+<Position>0.34999999999999998 0.015000000000000013 0.015000000000000013</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-6</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>forwardflight propeller-5</Uid>
+</InstancePath>
+<Position>0.015000677654506911 0.017739494717548543 0.0011235132245415169</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor-6</Uid>
+</InstancePath>
+<Position>0 0.030000000000000027 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>forwardflight propeller-5</Uid>
+</InstancePath>
+<Position>0.015000677654506911 0.017739494717548543 0.0011235132245415169</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>0.15000000036091682 -0.010000000000000009 0.52468507587579416</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ailerons L-1</Uid>
+</InstancePath>
+<Position>0.10091824323055208 -0.0097355988184918418 0.52470747223918401</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>0.087482196250054781 0.0044788583113716252 0.84807035004419151</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ailerons L-1</Uid>
+</InstancePath>
+<Position>0.038400439121457269 -0.0012242632465827574 0.52470747223918401</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>0.15000000036091682 -0.010000000000000009 -0.52468507587579427</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ailerons R-1</Uid>
+</InstancePath>
+<Position>0.10091824323055208 -0.0097355988184918418 -0.52470747223918413</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>0.087482196250054794 0.0044788583113716252 -0.51249232946821277</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ailerons R-1</Uid>
+</InstancePath>
+<Position>0.038400439119690002 -0.0012242632483498994 -0.83589999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>elevator-2</Uid>
+</InstancePath>
+<Position>0.030836710186067706 0.0080000000000000071 0.28387738532371132</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stab-2</Uid>
+</InstancePath>
+<Position>0.1838661441714905 0.0080000000000000071 0.22253999999999996</Position>
+<Axis>-4.6105607334931759e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>elevator-2</Uid>
+</InstancePath>
+<Position>0.030836710186067706 0.0080000000000000071 0.28387738532371132</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stab-2</Uid>
+</InstancePath>
+<Position>0.1838661441714905 0.0080000000000000071 0.22253999999999996</Position>
+<Axis>-4.6105607334931759e-16 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fuselage-1</Uid>
+</InstancePath>
+<Position>-0.20000000000000007 0.075000000000000067 0.074999999999999956</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fin-3</Uid>
+</InstancePath>
+<Position>-0.055094868512373607 0.053926867896714525 0.012000000000000011</Position>
+<Axis>-3.3121998675934426e-15 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>elevator-2</Uid>
+</InstancePath>
+<Position>0.0064463499802357438 0.0050000000000001155 0.073367385323711565</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>stab-2</Uid>
+</InstancePath>
+<Position>0.17825365809132954 0.0050000000000000044 -0.2135868764334371</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident50">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fin-3</Uid>
+</InstancePath>
+<Position>0.32069391095121824 0.30352686789671335 0.012000000000000011</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rudder-3</Uid>
+</InstancePath>
+<Position>0.35478468265277102 0.32568485985500129 0.012000000000000011</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>fin-3</Uid>
+</InstancePath>
+<Position>0.31619391095121807 0.30352686789671335 0.0075000000000000622</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>rudder-3</Uid>
+</InstancePath>
+<Position>0.35028468265277118 0.076282859855001273 0.0075000000000000622</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>-0.048949121001346921 0.0019996468971479331 0.875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>VTOL propeller assem-1</Uid>
+<Uid>rotorplatform-1</Uid>
+</InstancePath>
+<Position>0.34999999999999998 -0.015000000000000013 0.014999999999999902</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>-0.048949121001346921 0.0019996468971479331 -0.875</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>VTOL propeller assem-2</Uid>
+<Uid>rotorplatform-1</Uid>
+</InstancePath>
+<Position>0.34999999999999998 -0.015000000000000013 -0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>VTOL propeller assem-1</Uid>
+<Uid>rotorplatform-1</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>-0.037281135246340691 -0.010000000000000009 0.37826186474263945</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>VTOL propeller assem-2</Uid>
+<Uid>rotorplatform-1</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>-0.037281135246340691 -0.010000000000000009 -0.37826186474263945</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>-0.048949121001346921 0.0019996468971479331 0.875</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fuselage-1</Uid>
+</InstancePath>
+<Position>0 0 0.074999999999999956</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fuselage-1</Uid>
+</InstancePath>
+<Position>0.79999999999999993 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>wing-1</Uid>
+</InstancePath>
+<Position>0.040380290230648264 -0.010000000000000009 0.054277766469909672</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fin-3</Uid>
+</InstancePath>
+<Position>0.081597186498707064 0.2661261822570723 0.012000000000000011</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fuselage-1</Uid>
+</InstancePath>
+<Position>0 0 0.074999999999999956</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident56">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fuselage-1</Uid>
+</InstancePath>
+<Position>-0.20000000000000007 0.075000000000000067 0.074999999999999956</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stab-2</Uid>
+</InstancePath>
+<Position>0.052466144171490536 0.0020000000000000018 0.0030000000000001137</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fuselage-1</Uid>
+</InstancePath>
+<Position>0 0 0.074999999999999956</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stab-2</Uid>
+</InstancePath>
+<Position>0.1838661441714905 0.0080000000000000071 0.22253999999999996</Position>
+<Axis>-4.6105607334931759e-16 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance15">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>stab-2</Uid>
+</InstancePath>
+<Position>0.11162614417149053 0.0080000000000000071 0.22253999999999996</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fuselage-1</Uid>
+</InstancePath>
+<Position>0.79999999999999993 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance16">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>fin-3</Uid>
+</InstancePath>
+<Position>0.32069391095121746 0.053926867896713304 0.012000000000000011</Position>
+<Axis>3.11360623893273e-15 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>fuselage-1</Uid>
+</InstancePath>
+<Position>0.79999999999999993 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="VTOL propeller assem" uid="VTOL propeller assem" version="124">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="VTOL propeller assem.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>rotorplatform-1</Uid>
+</InstancePath>
+<Position>0.30351452050264721 0.020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rotorplatform-1</Uid>
+</InstancePath>
+<Position>0.30351452050264721 0.020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>VTOL propeller-1</Uid>
+</InstancePath>
+<Position>0.015001355309013864 -0.014521010564902959 0.0022470264490827008</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>0 0.029999999999999971 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>VTOL propeller-1</Uid>
+</InstancePath>
+<Position>0.015001355309013864 0.010478989435097008 0.0022470264490827008</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rotorplatform-1</Uid>
+</InstancePath>
+<Position>-0.30351452050264727 0.020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>rotorplatform-1</Uid>
+</InstancePath>
+<Position>-0.30351452050264727 0.025000000000000022 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>VTOL propeller-2</Uid>
+</InstancePath>
+<Position>0.015001355309013892 -0.014521010564902959 0.0022470264490827008</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>0 0.029999999999999971 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>VTOL propeller-2</Uid>
+</InstancePath>
+<Position>0.015001355309013892 0.010478989435097008 0.0022470264490827008</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="VTOL propeller" uid="VTOL propeller*:*Default" version="167">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="VTOL propeller.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.054314771361843081</Mass>
+<CenterOfMass>0.015002443363113491 -0.0040420407361280728 0.0044940718688438524</CenterOfMass>
+<Inertia>4.8454805857343536e-06 0.00021479516984962494 0.00021505768966264836 1.1923267160988641e-06 -1.3431651394498192e-10 2.4054285503180259e-10</Inertia>
+</MassProperties>
+<GeometryFile name="VTOL propeller_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ailerons L" uid="ailerons L*:*Default" version="137">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="ailerons L.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.097456810987561884</Mass>
+<CenterOfMass>0.064032158084104465 -0.0027949700498404117 0.6803035739471871</CenterOfMass>
+<Inertia>0.00078716123282027389 0.00080230545058209584 1.6513060409649945e-05 -1.2488072000781794e-09 1.2155359900560099e-10 1.298845053967286e-06</Inertia>
+</MassProperties>
+<GeometryFile name="ailerons L_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ailerons R" uid="ailerons R*:*Default" version="137">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="ailerons R.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.097472335810224409</Mass>
+<CenterOfMass>0.064034474494997107 -0.0027952698816420974 -0.68030115613403075</CenterOfMass>
+<Inertia>0.00078735556921359455 0.00080250386506249645 1.6517199444888388e-05 -1.4531197172530858e-09 -1.9341381430180935e-08 1.2992977361263297e-06</Inertia>
+</MassProperties>
+<GeometryFile name="ailerons R_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="elevator" uid="elevator*:*Default" version="223">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="elevator.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.066244450832575616</Mass>
+<CenterOfMass>0.023615874950589262 0.005000000000000001 0.068867385323711464</CenterOfMass>
+<Inertia>0.00094153298882291257 0.00094548395078076987 4.3533076527761106e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="elevator_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="fin" uid="fin*:*Default" version="187">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="fin.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.3214724918999613</Mass>
+<CenterOfMass>0.218291068233955 0.13521123433323778 0.0074999999999999997</CenterOfMass>
+<Inertia>0.0014596681237663922 0.0025038482044391192 0.0039591910927924221 0 0 -0.0011137336718285292</Inertia>
+</MassProperties>
+<GeometryFile name="fin_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="forwardflight propeller" uid="forwardflight propeller*:*Default" version="161">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="forwardflight propeller.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.18331272437583859</Mass>
+<CenterOfMass>0.015002441214906822 -0.0040420386811339214 0.0044940649429540784</CenterOfMass>
+<Inertia>3.6795169564937072e-05 0.0016311060354632576 0.0016330998989920779 9.0541334504076273e-06 -1.2664038817521034e-09 2.1039381536158107e-09</Inertia>
+</MassProperties>
+<GeometryFile name="forwardflight propeller_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="fuselage" uid="fuselage*:*Default" version="343">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="fuselage.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>16.279341433401033</Mass>
+<CenterOfMass>0.12794617160803937 0.0074256680620159886 0</CenterOfMass>
+<Inertia>0.052946434982518928 1.0243695602498091 1.0266976398917238 0 0 -0.035918911121098802</Inertia>
+</MassProperties>
+<GeometryFile name="fuselage_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor" uid="motor*:*Default" version="159">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.020027653166634941</Mass>
+<CenterOfMass>0 0.010588235294117645 0</CenterOfMass>
+<Inertia>2.2958819749792425e-06 2.9562877744132109e-06 2.2958819749792429e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rotorplatform" uid="rotorplatform*:*Default" version="137">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="rotorplatform.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.72090983741325421</Mass>
+<CenterOfMass>0 0.0024887216630983047 0</CenterOfMass>
+<Inertia>0.00016567004772109981 0.034225912501536775 0.034218131012474659 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="rotorplatform_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="rudder" uid="rudder*:*Default" version="217">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="rudder.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.053517225389230663</Mass>
+<CenterOfMass>0.36851230519437039 0.18810158827754273 0.0074999999999999997</CenterOfMass>
+<Inertia>0.000254367382239274 3.5709713681821977e-06 0.00025720123945316393 0 0 7.8181029502613686e-06</Inertia>
+</MassProperties>
+<GeometryFile name="rudder_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="stab" uid="stab*:*Default" version="149">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="stab.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.26565065186221909</Mass>
+<CenterOfMass>0.13142650545872434 0.0049999999999999984 0.0074999999999999884</CenterOfMass>
+<Inertia>0.0034952223361554373 0.0037687596395788153 0.00027512813420266805 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="stab_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="wing" uid="wing*:*Default" version="151">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="wing.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.8188553914861547</Mass>
+<CenterOfMass>0.029560693347702324 0.0054344829858178562 1.8027182851631015e-05</CenterOfMass>
+<Inertia>1.1701683138484023 1.1790579828128864 0.0091875417525825748 -1.1722495507773153e-05 4.0973733010626496e-07 -3.2120658896853918e-05</Inertia>
+</MassProperties>
+<GeometryFile name="wing_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
