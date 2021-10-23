@@ -19,6 +19,6 @@ Completion of design and understanding control framework
 # **Week 2**
 ## **Aim**
 
-[x] Completed importing CAD model
-[x] Resolved errors
-[] Learning Controller for VTOL and Forward flight 
+- [x] Completed importing CAD model.
+- [x] Resolved errors.
+- [] Learning Controller for VTOL and Forward flight.
