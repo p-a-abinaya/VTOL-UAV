@@ -15,3 +15,10 @@ Completion of design and understanding control framework
 
 **Control Design**
 1. Understanding Controller Architecture
+
+# **Week 2**
+## **Aim**
+
+[x] Completed importing CAD model
+[x] Resolved errors
+[] Learning Controller for VTOL and Forward flight 
